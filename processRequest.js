@@ -6,6 +6,10 @@ function openHomePage() {
     window.open("Mulch-Gravel-Site.html","_self");
 }
 
+function openAboutUs() {
+    window.open("About-Us.html", "_self");
+}
+
 function calcArea() {
 
     var length = document.getElementById("length").value;
@@ -24,3 +28,4 @@ function calcArea() {
 
 document.getElementById("mulchCalc").addEventListener("click", openCalcPage);
 document.getElementById("homePage").addEventListener("click", openHomePage);
+document.getElementById("aboutUs").addEventListener("click", openAboutUs);
