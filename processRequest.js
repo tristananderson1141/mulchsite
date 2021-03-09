@@ -4,7 +4,7 @@ function openCalcPage() {
 }
 
 function openHomePage() {
-    window.open("Mulch-Gravel-Site.html","_self");
+    window.open("index.html","_self");
 }
 
 function openAboutUs() {
@@ -16,19 +16,19 @@ function openAboutUs() {
 function mulchLocater() {
 
     location.href = "#";
-    location.href = "Mulch-Gravel-Site.html#mulchHeader";        
+    location.href = "index.html#mulchHeader";        
 }
 
 function soilLocater() {
     
     location.href = "#";
-    location.href = "Mulch-Gravel-Site.html#soilHeader";
+    location.href = "index.html#soilHeader";
 }
 
 function sandLocater() {
     
     location.href = "#";
-    location.href = "Mulch-Gravel-Site.html#sandHeader";
+    location.href = "index.html#sandHeader";
 }
 
 // Function is used to calculate quantity of mulch required for a given area
